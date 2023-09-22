@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTA</title>
+</head>
+<body>
+    <center>Confirmation page</center>
+    <b>Application Number: 21691A0504</b>
+    <form action="http://127.0.0.1:5500/submit.html" target="_blank">
+        <b>Personal Details-------------------------------------</b>
+        <br>
+        <label for="myname">Candidate's Name :</label>
+        <input type="text" id="myname" placeholder="e.g.Amrutha.V">
+        <br>
+        <label for="mothername">Mother's Name :</label>
+        <input type="text" id="mothername" placeholder="e.g.Lakshmi Devi.V">
+        <br>
+        <label for="fathername">Father's Name :</label>
+        <input type="text" id="fathername" placeholder="e.g.Vijaya Bhaskar Reddy.V">
+        <br>
+        <label for="dob">Date of Birth :</label>
+        <input type="date">
+        <br>
+        <label for="caste">Category :</label>
+        <select name="Category" id="caste">
+            <option value="OC-EWS" selected>OC-EWS</option>
+            <option value="OC" selected>OC</option>
+            <option value="BC" selected>BC</option>
+            <option value="SC" selected>SC</option>
+            <option value="ST" selected>ST</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <label for="gender">Gender: </label>
+        Male:<input type="radio" name="gender">Female: <input type="radio" name="gender">
+        <br>
+        <label for="nation">Nationality :</label>
+        <select name="nation" id="nation">
+            <option value="INDIAN" selected>INDIAN</option>
+            <option value="NRI" selected>NRI</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <label for="state">State :</label>
+        <select name="state" id="state">
+            <option value="AP" selected>Andhra Pradesh</option>
+            <option value="TS" selected>Telangana</option>
+            <option value="TN" selected>Tamil Nadu</option>
+            <option value="K" selected>Kerala</option>
+            <option value="MP" selected>Madhya Pradesh</option>
+            <option value="MS" selected>Maharastra</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <label for="por">Place of Residence :</label>
+        Rural:<input type="radio" name="gender">Urban: <input type="radio" name="gender">
+        <br>
+        <label for="dis">Are you disabled :</label>
+        Yes:<input type="radio" name="gender">No: <input type="radio" name="gender">
+        <br>
+        <label for="tod">Type of disability :</label>
+        <input type="text" id="tod" e.g.sight>
+        <br>
+        <label for="dis">Are you diabetic :</label>
+        Yes:<input type="radio" name="gender">No: <input type="radio" name="gender">
+        <br>
+        <label for="mop">Mode of Propogation :</label>
+        <select name="mop" id="mop">
+            <option value="regular" selected>Regular</option>
+            <option value="tutorial" selected>Tutorial</option>
+        </select>
+        <br>
+        <b>Applied For-------------------------------------------</b>
+        <br>
+        <label for="exam">Apply For :</label>
+        <select name="exam" id="exam">
+            <option value="B.Arch" selected>B.Arch only</option>
+            <option value="B.Tech" selected>B.Tech only</option>
+            <option value="Both B.Arch & B.Tech" selected>Both B.Arch & B.Tech</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <label for="exam">Question Paper Medium :</label>
+        <select name="exam" id="exam">
+            <option value="English" selected>English</option>
+            <option value="Telugu" selected>Telugu</option>
+            <option value="Hindi" selected>Hindi</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <label for="exam">Session(s) of Exam Apply Forr :</label>
+        <select name="exam" id="exam">
+            <option value="February" selected>February</option>
+            <option value="April" selected>April</option>
+            <option value="Both" selected>Both</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <label for="state">Exam State 1st choice :</label>
+        <select name="state" id="state">
+            <option value="AP" selected>Andhra Pradesh</option>
+            <option value="TS" selected>Telangana</option>
+            <option value="TN" selected>Tamil Nadu</option>
+            <option value="K" selected>Kerala</option>
+            <option value="MP" selected>Madhya Pradesh</option>
+            <option value="MS" selected>Maharastra</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <label for="state">Exam State 2nd choice :</label>
+        <select name="state" id="state">
+            <option value="AP" selected>Andhra Pradesh</option>
+            <option value="TS" selected>Telangana</option>
+            <option value="TN" selected>Tamil Nadu</option>
+            <option value="K" selected>Kerala</option>
+            <option value="MP" selected>Madhya Pradesh</option>
+            <option value="MS" selected>Maharastra</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <label for="state">Exam State 3rd choice :</label>
+        <select name="state" id="state">
+            <option value="AP" selected>Andhra Pradesh</option>
+            <option value="TS" selected>Telangana</option>
+            <option value="TN" selected>Tamil Nadu</option>
+            <option value="K" selected>Kerala</option>
+            <option value="MP" selected>Madhya Pradesh</option>
+            <option value="MS" selected>Maharastra</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <b>Additional Details-------------------------------------</b>
+        <br>
+        <label for="twn">Are you a twin :</label>
+        Yes:<input type="radio" name="gender">No: <input type="radio" name="gender">
+        <br>
+        <b>Present Address----------------------------------------</b>
+        <br>
+        <label for="add">Address :</label>
+        <input type="text" id="add">
+        <br>
+        <label for="loc">Locality :</label>
+        <input type="text" id="loc">
+        <br>
+        <label for="ctv">City/Town/Village :</label>
+        <input type="text" id="ctv">
+        <br>
+        <label for="dst">District :</label>
+        <input type="text" id="dst">
+        <br>
+        <label for="state">State :</label>
+        <input type="text" id="state">
+        <br>
+        <label for="cnt">Country :</label>
+        <input type="text" id="cnt">
+        <br>
+        <label for="mail">Email Address:</label>
+        <input type="email" id="mail" placeholder="ammuv5@gmail.com">
+        <br>
+        <label for="pin">Pin Code :</label>
+        <input type="text" id="pin">
+        <br>
+        <label for="mobile1">Mobile Number :</label>
+        <input type="text" id="mobile1">
+        <br>
+        <label for="alt">Alternate Contact No. :</label>
+        <input type="text" id="alt">
+        <br>
+        <b>Fee Payment Details-------------------------------------</b>
+        <br>
+        <label for="pm">Payment Mode :</label>
+        <select name="pm" id="pm">
+            <option value="Net" selected>Net Banking</option>
+            <option value="PhonePe" selected>PhonePe</option>
+            <option value="GPay" selected>GooglePay</option>
+            <option value="debit" selected>Debit Card</option>
+            <option value="credit" selected>Credit Card</option>
+            <option value="" selected>select</option>
+        </select>
+        <br>
+        <label for="fee">Exam Fee :</label>
+        <input type="text" id="fee">
+        <br>
+        <label for="tid">Transaction Id :</label>
+        <input type="text" id="tid">
+        <br>
+        <label for="dts">Date of Transaction :</label>
+        <input type="date" id="dts">
+        <br>
+        <label for="fs">Fee Submitted on :</label>
+        <input type="date" id="fs">
+        <br>
+        <b>Images uploaded by candidate--------------------------------</b>
+        <br>
+        <label for="myfile">Photograph :</label>
+        <input type="file" name="myfile" id="myfile">
+        <br>
+        <label for="myfile">Signature :</label>
+        <input type="file" name="myfile" id="myfile">
+        <br>
+        <label for="myfile">Aadhaar Card :</label>
+        <input type="file" name="myfile" id="myfile">
+        <br>
+        <label for="myfile">Catergory Certificate :</label>
+        <input type="file" name="myfile" id="myfile">
+        <br>
+        <label for="myfile">Disability Certificate :</label>
+        <input type="file" name="myfile" id="myfile">
+        <br>
+        <b>Declaration-------------------------------------------------</b>
+        <p>
+        <input type="checkbox">I hereby declare that all the particualrs given by me in this form are true to the best
+            of my knowledge ans belief and any mistake / misinformation detected
+            at the time of admission or at any stage in future, will result in cancellation of admission of candidate.
+            I have read the information bulletin and understood all the procedures. In case I furnish any false information,
+            my result will not be declared my candidature will automatically stand cancelled . I shall abide by the terms and conditions therein.
+        </p>
+        <center>
+            <input type="SUBMIT" value="Submit">
+        </center>
+    </form>
+</body>
+</html>

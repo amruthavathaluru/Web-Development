@@ -1,0 +1,27 @@
+.container{
+    text-align: center;
+    width: 300px;
+    height: 350px;
+background-color: rgb(127, 255, 138);
+}
+body{
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 10;
+    justify-content: center;
+    background-color: linear-gradient();
+    display: flex;
+}
+.text{
+    color: #da2c2c;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+.page{
+    width=150px;
+}
+.title
+{
+text-size-adjust: 20;
+}
